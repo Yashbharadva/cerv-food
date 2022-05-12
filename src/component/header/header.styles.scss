@@ -1,0 +1,110 @@
+.main-header {
+
+    .header {
+        display: flex;
+        background-color: rgb(248, 120, 73);
+        cursor: pointer;
+
+        .header-icon {
+            margin-left: 50px;
+            margin-top: 30px;
+            margin-bottom: 30px;
+        }
+
+        .logo-text {
+            margin-left: 4px;
+            margin-top: 35px;
+            font-size: 40px;
+            font-style: italic;
+            font-weight: 500;
+        }
+
+        .search-bar {
+            margin-top: 3rem;
+            margin-left: 15rem;
+
+
+            input {
+                background-color: white;
+                margin-left: 20rem;
+                margin-top: -10px;
+                width: 300px;
+                height: 42px;
+                border-radius: 999px;
+                padding: 20px;
+                border: 1px solid gray;
+                outline: none;
+                cursor: pointer;
+            }
+        }
+
+
+
+        .data {
+            margin-top: 50px;
+        
+            .val-first-name {
+                flex-direction: row;
+                display: flex;
+            }
+        }
+    }
+
+    .customer-data{
+        margin-top: 15px;
+        margin-left: 750px;
+    }
+
+    .index-1 {
+        margin-top: 25px;
+        margin-left: 40rem;
+        background-color: rgb(252, 140, 99);
+        width: 80px;
+        padding: 1px 100px;
+        cursor: pointer;
+        border-radius: 0px;
+
+
+        &:hover {
+            background-color: rgb(248, 120, 73);
+            border-radius: 99px;
+            transition: transform 0.75s ease-out;
+            transform: scale(0.9);
+        }
+
+    }
+
+    .index-2 {
+        margin-top: -18px;
+        margin-left: 60rem;
+        background-color: rgb(252, 140, 99);
+        width: 80px;
+        padding: 1px 100px;
+        cursor: pointer;
+        border-radius: 0px;
+
+
+        &:hover {
+            background-color: rgb(248, 120, 73);
+            border-radius: 99px;
+            transition: transform 0.75s ease-out;
+            transform: scale(0.9);
+        }
+
+    }
+
+    .customer2-data{
+        margin-left: 1020px;
+        margin-top: 5px;
+    }
+
+    .index1-details {
+        margin-top: 2rem;
+        margin-left: 55rem;
+    }
+
+    .index2-details {
+        margin-top: 2rem;
+        margin-left: 55rem;
+    }
+}
